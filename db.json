@@ -1,0 +1,62 @@
+{
+  "cars": [
+    {
+      "id": "1",
+      "make": "Toyota",
+      "model": "Camry",
+      "year": 2020,
+      "image": "./images/download (1).jpeg",
+      "price": 24000
+    },
+    {
+      "id": "2",
+      "make": "Honda",
+      "model": "Civic",
+      "year": 2019,
+      "image": "./images/download (2).jpeg",
+      "price": 20000
+    },
+    {
+      "id": "3",
+      "make": "Ford",
+      "model": "Mustang",
+      "year": 2021,
+      "image": "./images/download (3).jpeg",
+      "price": 35000
+    },
+    {
+      "id": "4",
+      "make": "Chevrolet",
+      "model": "Malibu",
+      "year": 2018,
+      "image": "./images/download (4).jpeg",
+      "price": 18000
+    },
+    {
+      "id": "5",
+      "make": "BMW",
+      "model": "3 Series",
+      "year": 2022,
+      "image": "./images/download (5).jpeg",
+      "price": 42000
+    },
+    {
+      "id": "6",
+      "make": "Mercedes-Benz",
+      "model": "C-Class",
+      "year": 2021,
+      "image": "./images/download.jpeg",
+      "price": 43000
+    },
+    {
+      "id": "7",
+      "make": "Audi",
+      "model": "A4",
+      "year": 2020,
+      "image": "./images/download.jpeg",
+      "price": 41000
+    }
+  
+   
+  ]
+}

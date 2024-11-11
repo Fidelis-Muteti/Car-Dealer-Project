@@ -1,0 +1,57 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.header {
+  width: 100vw;
+  background-color: blueviolet;
+  border-radius: 5px;
+  border: 1px solid black;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 60px; /* Adjusted height for the header */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+}
+
+.nav a {
+  color: white;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+}
+
+.nav a:hover {
+  background-color: #9b59b6; /* Slight color change on hover */
+  border-radius: 5px;
+}
+
+.main-content {
+  margin-top: 80px; /* To ensure content doesn't hide under the header */
+}
+
+h1 {
+  color: #333;
+  font-size: 2rem;
+}
+
+p {
+  color: #666;
+}
+
+.contacts {
+  display: flex;
+  justify-content: space-evenly;
+  align-items:center
+}
