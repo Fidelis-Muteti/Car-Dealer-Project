@@ -13,7 +13,7 @@
   position: fixed;
   top: 0;
   left: 0;
-  height: 60px; /* Adjusted height for the header */
+  height: 60px; 
   display: flex;
   justify-content: center;
   align-items: center;
@@ -33,12 +33,12 @@
 }
 
 .nav a:hover {
-  background-color: #9b59b6; /* Slight color change on hover */
+  background-color: #9b59b6; 
   border-radius: 5px;
 }
 
 .main-content {
-  margin-top: 80px; /* To ensure content doesn't hide under the header */
+  margin-top: 80px; 
 }
 
 h1 {
