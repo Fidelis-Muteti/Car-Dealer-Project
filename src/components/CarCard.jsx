@@ -16,7 +16,7 @@ function CarCard({ car, onDeleteCar, onUpdatePrice }) {
   }
 
   function handleDelete() {
-    fetch(`http://localhost:3000/cars/${car.id}`, {
+    fetch(`https://json-sever-xcgn.onrender.com/cars/${car.id}`, {
       method: "DELETE"
     }).then(() => onDeleteCar(car.id));
   }
@@ -35,7 +35,7 @@ function CarCard({ car, onDeleteCar, onUpdatePrice }) {
 
   function handleFormSubmit(e) {
     e.preventDefault();
-    fetch(`http://localhost:3000/cars/${car.id}`, {
+    fetch(`https://json-sever-xcgn.onrender.com/cars/${car.id}`, {
       method: "PATCH",
       headers: {
         "Content-Type": "application/json"

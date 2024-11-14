@@ -27,7 +27,7 @@ function NewCarForm({ onAddCar }) {
       price: parseFloat(formData.price)
     };
 
-    fetch("http://localhost:3000/cars", {
+    fetch("https://json-sever-xcgn.onrender.com/cars", {
       method: "POST",
       headers: {
         "Content-Type": "application/json"

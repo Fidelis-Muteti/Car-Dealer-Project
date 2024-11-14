@@ -9,7 +9,7 @@ function Home() {
 
  
   useEffect(() => {
-    fetch("http://localhost:3000/cars")
+    fetch("https://json-sever-xcgn.onrender.com/cars")
       .then((response) => response.json())
       .then((data) => setCars(data))
       .catch((error) => console.error("Error fetching cars:", error));
