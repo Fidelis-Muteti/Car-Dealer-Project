@@ -1,5 +1,5 @@
 # Car Dealer App
-
+This is a simple React-based car dealership application, allowing users to view, add, edit, and delete cars. The app includes a search function to filter cars based on make or model and includes a responsive navigation bar.
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
 Currently, two official plugins are available:
